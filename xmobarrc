@@ -1,8 +1,8 @@
 Config { font = "xft:Hack:pixelsize=13:antialias=true:hinting=true"
-    , bgColor = "#002b36"
-        , fgColor = "#657b83"
-        , border = NoBorder
+    , bgColor = "#114488"
+        , fgColor = "#fff"
         , borderColor = "black"
+	, border = NoBorder
         , hideOnStart = False
         , persistent = True
         , position = Top
@@ -11,7 +11,7 @@ Config { font = "xft:Hack:pixelsize=13:antialias=true:hinting=true"
         , Run Network "enp0s31f6" ["-L","0","-H","32","--normal","#657b83","--high","#657b83"] 10
         , Run Cpu ["-L","3","-H","50","--normal","#657b83","--high","#657b83"] 10
         , Run Memory ["-t","Mem: <usedratio>%"] 10
-        , Run Date "<fc=#b58900>%a %b %_d %Y %H:%M</fc>" "date" 10
+        , Run Date "<fc=#ff9da4>%a %b %_d %Y %H:%M</fc>" "date" 10
         , Run StdinReader
         ]
         , sepChar = "%"
